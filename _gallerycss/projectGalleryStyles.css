@@ -1,0 +1,182 @@
+/*	Project, CSS, Donald Sparrow, created -	10/16/2016,	updated	- 11/30/2016 */
+
+header {
+  background-color: #000;
+  line-height: 400%;
+  text-indent: 45%;
+  color: #fff;
+  background-image: url(../_images/Dmu5Ap8.gif);
+  max-height: 85%; max-width: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  height: 90%;
+}
+
+nav {
+  background-color: #777;
+  margin-top: 0px;
+  padding: 14px;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+nav a {
+    float: center;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+main {
+  margin-top: none;
+}
+
+footer {
+  margin: 4px;
+  padding-top: 2%;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 75%;
+  font-style: italic;
+  text-align: center;
+}
+
+/* selectors ------------------------------------------------------------------------- */
+body {
+  background-color: #777;
+  background-image: linear-gradient(to bottom, #ffffff, #777);
+  background-repeat: no-repeat;
+  border: 0px dotted #000;
+  color: #345;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  background-position: center;
+}
+
+div {
+  margin: none;
+}
+
+a:link, a:visited {
+  color: #345;
+  cursor: pointer;
+  font-size: 14px;	
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:active {
+  background-color: transparent;
+  color: #999;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav a:hover { 
+  color: deepskyblue;
+  cursor: pointer;
+  font-size: 14px;	
+  font-weight: 600;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 20px;
+}
+
+h2 {
+  color: darkgreen;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  text-align: center;
+  font-size: 35px;
+}
+
+h3 {
+  color: #000;
+  font-family: 'Georgia', 'Times New Roman', serif; 
+}
+
+dt {
+  color: #000033;
+  font-weight: 600;
+}
+
+dd {
+  padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+/* class selector -------------------------------------------------------------------------- */
+.alignCenter {
+  margin: 0 auto;
+  padding-top: 24px;
+  text-align: center;
+}
+.alignLeft {
+
+}
+.alignRight {
+
+}
+
+.boldText {
+  font-weight: 600;
+  margin-bottom: -1px;
+}
+
+.contact {
+  font-size: 90%;
+}
+
+.negativeMargin {
+  margin-top: -16px;
+}
+
+.text {
+    text-align: left;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.messageTextBox {
+    max-width: 350px;
+    min-width: 350px;
+    max-height: 100px;
+    min-height: 100px;
+}
+
+.selectListWidth {
+    width: ;
+}
+/* id selectors ---------------------------------------------------------------------- */
+#wrapper {
+  margin: 0 auto;
+  margin-top: 1%;
+  width: 95%;
+}
+
+/* descendant selector ---------------------------------*/
+
+
+/* block element ---------------------------------------*/
+
+div{
+    
+}
+
+/* eof ------------------------------------------------------------------------------ */

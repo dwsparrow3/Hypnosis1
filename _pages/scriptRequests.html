@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- Run this through the Validator, and correct the mistakes. -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="Project" content="Project, CSS, Donald Sparrow, created - 10/16/2016, updated - 12/09/2016">
+    <title>Script Requests</title>
+    <!-- <link rel="stylesheet" href="_css/reset.css"> -->
+    <link rel="stylesheet" href="../_css/projectStyles.css">
+  </head>
+  <body>
+    <div id="wrapper">
+    <header><h1>The Hypnotic Effect</h1></header>
+      <nav>
+            <a href="../index.html">Home</a>
+            <a href="readPeople.html">How to Read Someone</a>
+            <a href="canExperience.html">What Can I Experience?</a>
+            <a href="haveDone.html">What I've Done</a>
+            <a href="scriptRequests.html">Script Requests</a>
+      </nav>
+      <main>
+        <h2>Can you record a script specifically for my situation?</h2>
+        <h2><strong>YES</strong></h2><br>
+          <h3>Email me your situation, what the issues are, and what your ideal result will be.</h3><br>
+        <p>All fields are required, unless you have chosen a quick option<span style="color: red; font-weight: 900; font-size: 18px;">*</span></p><br>
+	     <form  method="POST" name="validateData" action="mailto:gg286@email.vccs.edu" id="validateData_Submitted"> 
+          <table>
+            <!-- first name -->
+            <tr>
+              <td class="alignRightLabel">First Name</td>
+              <td class="alignLeftLabel"><input type="text" name="firstName" id="firstName_Entered" required placeholder="Enter your first name" size="30"></td><br>
+            </tr>
+            <!-- email address -->
+            <tr>
+              <td class="alignRightLabel">Email Address</td>
+              <td class="alignLeftLabel"><input type="email" name="emailAddress" id="email_Entered" required placeholder="Enter your email address" size="30"></td>
+            </tr>
+            <!-- nights -->            
+            <tr>
+              <td class="alignRightLabel">Quick Options or Select 'Other'</td>
+              <td class="alignLeftLabel"><select name="quickOptions" id="quickOption_Selected" class="selectListWidth">
+                  <option>Becoming a robot</option>
+                  <option>Harmful Behavior</option>
+                  <option>Becoming a famous person or character</option>
+                  <option>Negative Behavior</option>
+                  <option>Fun and Games</option>
+                  <option>Can't fall asleep at night</option>
+                  <option>Enchant my phobias away!</option>
+                  <option>Other</option>
+              </select>
+              </td>
+            </tr>
+           <!-- Requests -->
+              <tr>
+              <td class="alignRightLabel">Requests</td>
+              <td>
+                  <input type="checkbox" name="Requests[]" id="checkbox0" value="For Me"> For Me
+                  <input type="checkbox" name="Requests[]" id="checkbox1" value="For a loved one"> For a loved one
+              </td>
+            </tr>
+            <!-- comment -->            
+            <tr>
+              <td class="alignRightCommentsLabel">Comments</td>
+              <td class="alignLeftLabel">
+                  <textarea class="messageTextBox" placeholder="Only if you have not selected a quick option" name="comment" id="comment"></textarea>
+              </td>
+            </tr>
+            <!-- buttons --> 
+            <tr>
+              <td> </td>
+              <td class="alignLeft" colspan="1">
+                <input type="reset" name="reset" value="Clear"> |
+                <input type="submit" value="Submit">              
+              </td>
+            </tr>
+          </table>
+        </form>
+        <div>
+          <p class="boldText">Altered States, Inc.</p>
+          879 Laurel Way<br>
+          Arnold, MD 21012<br>
+          <p class="contact">(888) 555-5555</p>
+        </div>
+      </main>
+      <footer>
+        Copyright &copy; Altered States Inc.<br>
+        <a href="mailto:dws24295@email.vccs.edu">dws24295@email.vccs.edu</a>
+      </footer>
+    </div>
+  </body>
+</html>
